@@ -1,7 +1,6 @@
 package com.mardelapps.oneapp
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -33,10 +32,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 Contrasena.text.toString()
             )
         ) {
-            Log.d("Contraseña Correcta", Contrasena.text.toString())
             Toast.makeText(this, "Datos Recibidos", Toast.LENGTH_SHORT).show()
         } else {
-            Log.d("Contraseña Incorrecta", Contrasena.text.toString())
             Toast.makeText(this, "Algo Falló", Toast.LENGTH_SHORT).show()
         }
     }
