@@ -5,6 +5,6 @@ class LoginVerification {
         return (Email == "ciroFF@mardelapps.com" &&
                 Contrasena == "CC450") ||
                 (Email == "pepe@gmail.com" &&
-                        Contrasena == "PP3")
+                        Contrasena == "BB5")
     }
 }
