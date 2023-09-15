@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        if (loginVerification.verifyEmailAndPassword(
+        if (loginVerification.verifyCredentials(
                 Email.text.toString(),
                 Contrasena.text.toString()
             )
